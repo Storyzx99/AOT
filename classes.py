@@ -6,7 +6,7 @@ class Titan:
         self.power = power
 
     def take_damage(self, damage):
-            self.health = self.health - damage
+        self.health = self.health - damage
     
 
 #testing objects
