@@ -6,4 +6,5 @@ from classes import *
 
 class TestTitan(TestCase):
 
-    pass
+    def testHealthLetter(self):
+        pass
