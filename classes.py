@@ -5,7 +5,7 @@ class Titan:
         self.health = health
         self.power = power
 
-        def take_damage(self, damage):
+    def take_damage(self, damage):
             self.health = self.health - damage
     
 
@@ -15,4 +15,5 @@ print(titan.name)
 
 print("Orignal Health",titan.health)
 titan.take_damage(10)
+print(f'new health: {titan.health}')
 print(titan.power)
