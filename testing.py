@@ -11,3 +11,6 @@ class TestTitan(TestCase):
             test_titan = Titan(name = "Test", health = "a", power = 10)
 
 
+if __name__ == '__main__':
+    unittest.main()
+
