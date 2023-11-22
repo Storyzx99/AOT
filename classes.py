@@ -12,5 +12,7 @@ class Titan:
 #testing objects
 titan = Titan("Eren", 100, 50)
 print(titan.name)
-print(titan.health)
+
+print("Orignal Health",titan.health)
+titan.take_damage(10)
 print(titan.power)
