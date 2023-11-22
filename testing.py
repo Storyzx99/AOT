@@ -7,4 +7,7 @@ from classes import *
 class TestTitan(TestCase):
 
     def testHealthLetter(self):
-        pass
+        with self.assertRaises(AssertionError):
+            test_titan = Titan(name = "Test", health = "a", power = 10)
+
+
