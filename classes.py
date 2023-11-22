@@ -5,3 +5,9 @@ class Titan:
         self.health = health
         self.power = power
     
+
+#testing objects
+titan = Titan("Eren", 100, 50)
+print(titan.name)
+print(titan.health)
+print(titan.power)
