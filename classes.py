@@ -4,6 +4,9 @@ class Titan:
         self.name = name
         self.health = health
         self.power = power
+
+        def take_damage(self, damage):
+            self.health = self.health - damage
     
 
 #testing objects
